@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,rgb(145, 230, 27),rgb(165, 34, 34));
+    height: 100vh;
+}
+.outer > .inner{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to right,blue,white);
+}
+.outer>.inner>.box{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+#box1{
+    background-color: black;
+    right: 518px;
+}
+
+#box2{
+    background-color: green; 
+    right: 518px;
+    top: 535px;
+    
+}
+
+#box3{
+    background-color: palevioletred;
+    left: 518px;
+    top: 535px;
+
+    
+}
+
+#box4{
+    background-color: greenyellow; 
+    
+ 
+}
+
+#box5{
+    background-color: darkred;
+    right: 725px;
+    top: 300px;
+
+}
